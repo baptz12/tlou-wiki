@@ -2,7 +2,7 @@
 function Footer(){
     return(
         <footer>
-            <p>&copy; {new Date().getFullYear()} Policand Website</p>
+            <p>&copy; {new Date().getFullYear()} The Last of Us Part 1 Bichat's Wiki</p>
         </footer>
     );
 }
