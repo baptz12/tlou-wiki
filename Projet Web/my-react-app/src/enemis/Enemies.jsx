@@ -1,11 +1,11 @@
-import runnersPic from '../assets/runners.jpg';
-import stalkersPic from '../assets/stalkers.jpg';
-import clickersPic from '../assets/clickers.jpg';
-import Card from '../Card.jsx'
+import runnersPic from '../assets/runners2.jpg';
+import stalkersPic from '../assets/stalkers2.jpg';
+import clickersPic from '../assets/clickers2.jpg';
+import Card from '../Card.jsx';
 
 function Ennemis() {
     return (
-      <div>
+      <div className="cards-container">
         <Card 
           image={runnersPic}
           title="Les coureurs" 

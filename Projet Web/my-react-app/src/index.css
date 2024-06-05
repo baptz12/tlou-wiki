@@ -1,5 +1,19 @@
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Cette ligne permet de passer à une nouvelle ligne si nécessaire */
+  gap: 20px; /* Espace entre les cartes */
+  padding: 20px;
+}
+
+.footer-text {
+  font-size: 200%;
+}
+
 .card{
   border: 1px solid hsl(0, 0%, 80%);
+  background-color: hsl(0, 0%, 80%);
   border-radius: 10px;
   box-shadow: 5px 5px 5px hsl(0, 0%, 0%, 0.1);
   padding: 20px;
