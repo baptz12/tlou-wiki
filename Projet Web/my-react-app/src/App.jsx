@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Footer from './Footer.jsx'
 import Accueil from './home/Home.jsx';
 import Ennemis from './enemis/Enemies.jsx';
-import Contact from './contact/Contact.jsx';
+import Contact from './contact/Contact.jsx'
 
 function App() {
   return (
