@@ -1,33 +1,22 @@
 import Header from './Header.jsx'
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Footer from './Footer.jsx'
-import Card from './Card.jsx'
-import runnersPic from './assets/runners.jpg';
-import stalkersPic from './assets/stalkers.jpg';
-import clickersPic from './assets/clickers.jpg';
+import Accueil from './home/Home.jsx';
+import Ennemis from './enemis/Enemies.jsx';
+import Contact from './contact/Contact.jsx';
 
 function App() {
-
   return (
-    <>
-    <Header></Header>
-    <Card 
-      image={runnersPic}
-      title="Les coureurs" 
-      text="Les coureurs sont les premiers et les plus faibles des infectés qui apparaissent dans The Last of Us." 
-    />
-    <Card 
-      image={stalkersPic}
-      title="Les rôdeurs" 
-      text="Les rôdeurs sont le deuxième stade des infectés dans The Last of Us. Il leur faut entre deux semaines et un an pour atteindre ce stade d'infection." 
-    />
-      <Card 
-      image={clickersPic}
-      title="Les claqueurs" 
-      text="Les cliqueurs constituent le troisième stade de l'infection dans The Last of Us, ils ont subi une exposition prolongée au champignon et possèdent désormais une force qui dépasse largement celle d'un humain moyen." 
-    />
-    <Footer></Footer>
-    </>
+    <Router>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Accueil />} />
+        <Route path="/ennemis" element={<Ennemis />} />
+        <Route path="/contact" element={<Contact/>} />
+      </Routes>
+      <Footer />
+    </Router>
   );
 }
 
-export default App
+export default App;

@@ -1,20 +1,20 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-function Header(){
-
-    return(
-        <header>
-            <h1>The Last of Us Part 1 Wiki</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <hr></hr>
-        </header>
-    );
+function Header() {
+  return (
+    <header>
+      <h1>The Last of Us Part 1 Wiki</h1>
+      <nav>
+        <ul>
+          <li><Link to="/">Accueil</Link></li>
+          <li><Link to="/ennemis">Ennemis</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
+        </ul>
+      </nav>
+      <hr />
+    </header>
+  );
 }
 
-export default Header
+export default Header;
