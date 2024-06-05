@@ -7,5 +7,5 @@ function Contact(){
     </ul>
     );
   }
-  
-export default Contact;
+
+export default Contact; 
