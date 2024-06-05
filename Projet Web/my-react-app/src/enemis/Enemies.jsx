@@ -19,7 +19,7 @@ function Ennemis() {
         <Card 
           image={clickersPic}
           title="Les claqueurs" 
-          text="Les cliqueurs constituent le troisième stade de l'infection dans The Last of Us, ils ont subi une exposition prolongée au champignon et possèdent désormais une force qui dépasse largement celle d'un humain moyen." 
+          text="Les claqueurs constituent le troisième stade de l'infection dans The Last of Us, ils ont subi une exposition prolongée au champignon et possèdent désormais une force qui dépasse largement celle d'un humain moyen." 
         />
       </div>
     );
