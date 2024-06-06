@@ -8,15 +8,17 @@ import Contact from './contact/Contact.jsx';
 
 function App() {
   return (
-    <>
+    <div className="app-container">
       <Header />
-      <Routes>
-        <Route path="/" element={<Accueil />} />
-        <Route path="/ennemis" element={<Ennemis />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+      <div className="content">
+        <Routes>
+          <Route path="/" element={<Accueil />} />
+          <Route path="/ennemis" element={<Ennemis />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
       <Footer />
-    </>
+    </div>
   );
 }
 
