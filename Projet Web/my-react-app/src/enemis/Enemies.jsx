@@ -9,7 +9,7 @@ function Ennemis() {
         <Card 
           image={runnersPic}
           title="Les coureurs" 
-          text="Les coureurs sont les premiers et les plus faibles des infectés qui apparaissent dans The Last of Us." 
+          text="Les coureurs sont les premiers et les plus faibles des infectés qui apparaissent dans The Last of Us. Faîtes attention à vous car ils très rapides" 
         />
         <Card 
           image={stalkersPic}
@@ -19,7 +19,7 @@ function Ennemis() {
         <Card 
           image={clickersPic}
           title="Les claqueurs" 
-          text="Les claqueurs constituent le troisième stade de l'infection dans The Last of Us, ils ont subi une exposition prolongée au champignon et possèdent désormais une force qui dépasse largement celle d'un humain moyen." 
+          text="Les claqueurs constituent le troisième stade de l'infection, ils ont subi une exposition prolongée au champignon et possèdent une force largement supérieure à celle des humains." 
         />
       </div>
     );

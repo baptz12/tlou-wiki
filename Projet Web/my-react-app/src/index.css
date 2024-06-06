@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap; /* Cette ligne permet de passer à une nouvelle ligne si nécessaire */
-  gap: 20px; /* Espace entre les cartes */
+  flex-wrap: wrap;
+  gap: 20px;
   padding: 20px;
 }
 

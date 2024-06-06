@@ -8,7 +8,7 @@ function Header() {
       <nav>
         <ul className="pages_list">
           <li><Link to="/">Accueil</Link></li>
-          <li><Link to="/ennemis">Ennemis</Link></li>
+          <li><Link to="/ennemis">Infectés</Link></li>
           <li><Link to="/contact">Contact</Link></li>
         </ul>
       </nav>
