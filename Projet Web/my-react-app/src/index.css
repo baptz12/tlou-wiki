@@ -4,7 +4,7 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 20px;
+  padding: 200px;
 }
 
 .app-container {
@@ -27,7 +27,7 @@
 
 .card{
   border: 1px solid hsl(0, 0%, 80%);
-  background-color: hsl(0, 0%, 80%);
+  background-color: rgb(193,200,210);
   border-radius: 10px;
   box-shadow: 5px 5px 5px hsl(0, 0%, 0%, 0.1);
   padding: 20px;
@@ -64,11 +64,101 @@
   font-family: "Teko", sans-serif;
 }
 
-.contact_infos{
-  font-size: 190%;
+.contact-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 80vh;
+  padding-left: 60px;
 }
 
-.home_text{
+.contact_infos {
+  font-size: 350%;
+  margin: 0;
+  padding: 0;
+}
+
+.home-container {
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  text-align: center;
+  min-height: 70vh; /* Prend toute la hauteur disponible */
+}
+
+.home_text {
   font-size: 250%;
   text-align: center;
 }
+
+.header {
+  width: 100%;
+  background-color: #c5bdbd;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-item a, .nav-item span {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #333;
+  padding: 10px 20px;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+.nav-item a:hover, .nav-item span:hover {
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 200px;
+  z-index: 1000;
+}
+
+.dropdown-menu li {
+  padding: 10px;
+}
+
+.dropdown-menu li a {
+  padding: 10px;
+  display: block;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
+
