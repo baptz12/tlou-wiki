@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 function Header() {
   return (
     <header>
-      <h1>The Last of Us Part 1 Wiki</h1>
+      <h1 className="header_title">The Last of Us Part 1 Wiki</h1>
       <nav>
-        <ul>
+        <ul className="pages_list">
           <li><Link to="/">Accueil</Link></li>
           <li><Link to="/ennemis">Ennemis</Link></li>
           <li><Link to="/contact">Contact</Link></li>
