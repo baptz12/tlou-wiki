@@ -4,7 +4,9 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 200px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .app-container {
@@ -15,6 +17,9 @@
 
 .content {
   flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {
@@ -25,7 +30,7 @@
   background-color: #f1f1f100;
 }
 
-.card{
+.card {
   border: 1px solid hsl(0, 0%, 80%);
   background-color: rgb(193,200,210);
   border-radius: 10px;
@@ -34,32 +39,32 @@
   margin: 10px;
   text-align: center;
   max-width: 250px;
-  display: inline-block;
+  flex-grow: 1;
 }
 
-.card .card-image{
-  max-width: 60%;
-  height: 200px;
+.card .card-image {
+  max-width: 100%;
+  height: auto;
 }
 
-.card .card-title{
+.card .card-title {
   font-family: Arial, sans-serif;
   margin: 0;
   color: hsl(0, 0%, 20%);
 }
 
-.card .card-text{
+.card .card-text {
   font-family: Arial, sans-serif;
   color: hsl(0, 0%, 30%);
 }
 
-.header_title{
+.header_title {
   font-size: 300%;
   font-family: "Teko", sans-serif;
   text-align: center;
 }
 
-.pages_list{
+.pages_list {
   font-size: 190%;
   font-family: "Teko", sans-serif;
 }
@@ -73,6 +78,7 @@
 }
 
 .contact_infos {
+  
   font-size: 350%;
   margin: 0;
   padding: 0;
@@ -80,21 +86,21 @@
 
 .home-container {
   display: flex;
-  justify-content: center; /* Centre horizontalement */
-  align-items: center; /* Centre verticalement */
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  min-height: 70vh; /* Prend toute la hauteur disponible */
+  min-height: 70vh;
 }
 
 .home_text {
-  font-size: 250%;
+  font-size: 350%;
   text-align: center;
 }
 
 .header {
   width: 100%;
   background-color: #c5bdbd;
-  padding: 10px 0;
+  padding: 14px 0;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
@@ -161,4 +167,3 @@
 .nav-item:hover .dropdown-menu {
   display: block;
 }
-
