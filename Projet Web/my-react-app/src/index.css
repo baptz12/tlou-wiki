@@ -5,8 +5,17 @@
   flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
-  max-width: 1200px;
+  max-width: 1800px;
   margin: 0 auto;
+}
+
+.card:hover {
+  background-color: #333; /* Change la couleur de fond au survol */
+  color: #fff; /* Change la couleur du texte au survol */
+  border: 1px solid #fff; /* Change la couleur de la bordure au survol */
+  gap: 30px;
+  padding: 30px;
+  min-height: 10vh;
 }
 
 .app-container {
@@ -31,8 +40,7 @@
 }
 
 .card {
-  border: 1px solid hsl(0, 0%, 80%);
-  background-color: rgb(193,200,210);
+  background-color: rgba(19, 20, 20, 0.589);
   border-radius: 10px;
   box-shadow: 5px 5px 5px hsl(0, 0%, 0%, 0.1);
   padding: 20px;
@@ -40,22 +48,36 @@
   text-align: center;
   max-width: 250px;
   flex-grow: 1;
+  transition: all 0.3s ease;
 }
 
 .card .card-image {
   max-width: 100%;
   height: auto;
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card-image {
+  transform: scale(1.1);
 }
 
 .card .card-title {
   font-family: Arial, sans-serif;
-  margin: 0;
-  color: hsl(0, 0%, 20%);
+  margin: 5;  
+  color: hsl(0, 5%, 92%);
+}
+
+.card:hover .card-title {
+  color: #fff;
 }
 
 .card .card-text {
   font-family: Arial, sans-serif;
-  color: hsl(0, 0%, 30%);
+  color: hsl(0, 13%, 91%);
+}
+
+.card:hover .card-text {
+  color: #ddd;
 }
 
 .header_title {
@@ -78,7 +100,6 @@
 }
 
 .contact_infos {
-  
   font-size: 350%;
   margin: 0;
   padding: 0;
@@ -99,7 +120,7 @@
 
 .header {
   width: 100%;
-  background-color: #c5bdbd;
+  background-color: #837b7b79;
   padding: 14px 0;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
@@ -141,13 +162,17 @@
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #f8f8f8;
+  background-color: #837b7b79;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   list-style: none;
   padding: 0;
   margin: 0;
   width: 200px;
   z-index: 1000;
+}
+
+.dropdown-text{
+  color: white;
 }
 
 .dropdown-menu li {

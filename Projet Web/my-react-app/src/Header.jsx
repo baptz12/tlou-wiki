@@ -13,7 +13,7 @@ function Header() {
                   <li className="nav-item dropdown">
                       <span>Wiki</span>
                       <ul className="dropdown-menu">
-                          <li><Link to="/ennemis">Les ennemis</Link></li>
+                          <li><Link to="/ennemis">Les infectés</Link></li>
                       </ul>
                   </li>
                   <li className="nav-item">

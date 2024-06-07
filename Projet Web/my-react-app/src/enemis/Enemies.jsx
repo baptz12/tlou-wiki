@@ -1,7 +1,7 @@
-import runnersPic from '../assets/runners2.jpg';
-import stalkersPic from '../assets/stalkers2.jpg';
-import clickersPic from '../assets/clickers2.jpg';
-import colossePic from '../assets/colosse.jpg';
+import runnersPic from '../assets/test_runner.webp';
+import stalkersPic from '../assets/test.png';
+import clickersPic from '../assets/test_claqueur.png';
+import colossePic from '../assets/test_colosse.png';
 import Card from '../Card.jsx';
 
 function Ennemis() {
