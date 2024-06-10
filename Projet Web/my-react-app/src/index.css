@@ -139,14 +139,14 @@
 
 .home_text {
   font-family: "Teko", sans-serif;
-  font-size: 350%;
+  font-size: 450%;
   text-align: center;
 }
 
 .header {
   width: 100%;
   background-color: #61545479;
-  padding: 14px 0;
+  padding: 17px 0;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
