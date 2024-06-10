@@ -3,10 +3,10 @@ import runnersPic from '../assets/test_runner.webp';
 import stalkersPic from '../assets/test.png';
 import clickersPic from '../assets/test_claqueur.png';
 import colossePic from '../assets/test_colosse.png';
-import runnersVid from '../assets/runners.gif';
-import stalkersVid from '../assets/stalkers.gif';
-import clickersVid from '../assets/clickers.gif';
-import colosseVid from '../assets/colosse.gif';
+import runnersVid from '../assets/runners2.gif';
+import stalkersVid from '../assets/stalkers2.gif';
+import clickersVid from '../assets/clickers2.gif';
+import colosseVid from '../assets/colosse2.gif';
 import Card from '../Card.jsx';
 import Modal from '../Modal.jsx';
 
