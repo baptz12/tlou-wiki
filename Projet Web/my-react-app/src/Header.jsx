@@ -10,15 +10,16 @@ function Header() {
 
   return (
     <header className="header">
+      <h2 className="header-title">The Last of Us Wiki</h2>
       <nav className="nav">
         <ul className="nav-list">
           <li className="nav-item dropdown">
-            <span>Menu</span>
+            <span className="menu-title">Menu</span>
             <ul className="dropdown-menu">
               <li><Link to="/">Accueil</Link></li>
               <li><Link to="/contact">Contact</Link></li>
               <li className="nav-item wiki-dropdown">
-                <span className="wiki-button" onClick={toggleWikiMenu}>Wiki  ▼</span>
+                <span className="wiki-button" onClick={toggleWikiMenu}>Wiki  ►</span>
                 {wikiMenuOpen && (
                   <ul className="wiki-menu">
                     <li><Link to="/ennemis">Les infectés</Link></li>
