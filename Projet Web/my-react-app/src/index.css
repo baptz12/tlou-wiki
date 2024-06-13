@@ -146,13 +146,14 @@
 .header {
   width: 100%;
   background-color: #61545479;
-  padding: 17px 0;
+  padding: 20px 0;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .nav {
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  gap: 10px;
 }
 
 .nav-list {
@@ -167,22 +168,36 @@
   position: relative;
 }
 
-.nav-item a, .nav-item span {
+.nav-item a, .nav-item span, .wiki-button {
   text-decoration: none;
   font-size: 1.2em;
-  color: #333;
-  padding: 10px 20px;
+  color: black;
+  padding: 10px 20px; /* Ensure padding is identical for all buttons */
   transition: background-color 0.3s, color 0.3s;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .nav-item a:hover, .nav-item span:hover {
   background-color: #333;
   color: #fff;
-  border-radius: 5px;
 }
 
 .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #837b7b79;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 200px;
+  z-index: 999;
+}
+
+.wiki-menu {
   display: none;
   position: absolute;
   top: 100%;
@@ -200,22 +215,40 @@
   color: white;
 }
 
-.dropdown-menu li {
+.dropdown-menu li, .wiki-menu li {
   padding: 10px;
 }
 
-.dropdown-menu li a {
+.dropdown-menu li a, .wiki-menu li a {
   padding: 10px;
   display: block;
 }
 
-.dropdown-menu li a:hover {
+.dropdown-menu li a:hover, .wiki-menu li a:hover {
   background-color: #333;
   color: #fff;
 }
 
-.nav-item:hover .dropdown-menu {
+.nav-item:hover .dropdown-menu, .wiki-dropdown:hover .wiki-menu {
   display: block;
+}
+
+.wiki-button {
+  display: flex;
+  justify-content: left;  /* Center the text horizontally */
+  align-items: left;      /* Center the text vertically */
+  font-size: 1.2em;
+  color: black;
+  padding: 5px 20px; /* Ensure padding is identical for all buttons */
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 5px;
+  margin-right: 1px;  /* Adjust the gap if needed, or remove it if unnecessary */
+  cursor: pointer;
+}
+
+.wiki-button:hover {
+  background-color: #333;
+  color: #fff;
 }
 
 .modal-overlay {

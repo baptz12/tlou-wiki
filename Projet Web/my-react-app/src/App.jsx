@@ -5,6 +5,7 @@ import Footer from './Footer.jsx';
 import Accueil from './home/Home.jsx';
 import Ennemis from './enemis/Enemies.jsx';
 import Contact from './contact/Contact.jsx';
+import Cast from './casts/Cast.jsx';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Accueil />} />
           <Route path="/ennemis" element={<Ennemis />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/casts" element={<Cast/>} />
         </Routes>
       </div>
       <Footer />
