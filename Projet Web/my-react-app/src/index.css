@@ -67,7 +67,8 @@
 
 .card .card-title {
   font-family: Arial, sans-serif;
-  margin: 5;  
+  margin: 5;
+  margin-top: 10%;
   color: hsl(0, 5%, 92%);
 }
 
