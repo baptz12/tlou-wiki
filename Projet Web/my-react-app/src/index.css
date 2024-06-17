@@ -172,7 +172,7 @@
   list-style: none;
   padding: 0px;
   margin: 1;
-  margin-left: 20px;
+  margin-left: 13px;
   gap: 20px;
 }
 
@@ -199,7 +199,7 @@
   display: none;
   position: absolute;
   top: 130%;
-  left: 0%;
+  right: -125%;
   background-color: #706767ab;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   list-style: none;
