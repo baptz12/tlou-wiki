@@ -148,8 +148,7 @@
   background-color: #61545479;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   display: flex;
-  justify-content: left;
-  align-items: left;
+  align-items: center;
 }
 
 .header-title {
@@ -157,13 +156,14 @@
   color: black;
   margin: 1 20px 0 0;
   margin-left: 10px;
-  text-align: left;
-  justify-content: left;
+  text-align: center;
+  justify-content: center;
 }
 
 .nav {
   display: flex;
-  align-items: center;
+  align-items: left;
+  justify-content: left;
   gap: 20px;
 }
 
@@ -198,9 +198,9 @@
 .dropdown-menu {
   display: none;
   position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: #837b7b79;
+  top: 130%;
+  left: 0%;
+  background-color: #706767ab;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   list-style: none;
   padding: 0;
@@ -212,10 +212,9 @@
 .wiki-menu {
   display: none;
   position: absolute;
-  top: 0;
-  left: 0;
-  left: 100%;
-  background-color: #837b7b79;
+  top: 100%;
+  left: 2%;
+  background-color: #706767ab;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   list-style: none;
   padding: 0;

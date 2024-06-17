@@ -19,7 +19,7 @@ function Header() {
               <li><Link to="/">Accueil</Link></li>
               <li><Link to="/contact">Contact</Link></li>
               <li className="nav-item wiki-dropdown">
-                <span className="wiki-button" onClick={toggleWikiMenu}>Wiki  ►</span>
+                <span className="wiki-button" onClick={toggleWikiMenu}>Wiki ▼</span>
                 {wikiMenuOpen && (
                   <ul className="wiki-menu">
                     <li><Link to="/ennemis">Les infectés</Link></li>
